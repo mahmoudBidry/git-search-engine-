@@ -1,0 +1,16 @@
+.card{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+button{
+    left: 50%;
+    
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden
+}
