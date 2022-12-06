@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import {Link} from "react-router-dom";
 import "./User.css"
 
 export class User extends Component {
@@ -15,6 +14,7 @@ export class User extends Component {
             <p className="card-text">
                 <a href={"/users/"+login} className='btn btn-success'>Show more</a>
                 <a href={repos_url} className='btn btn-warning'>Repository</a>
+                <a href={html_url} className='btn btn-primary'>View profil</a>
             </p>
             </div>
         </div> 
